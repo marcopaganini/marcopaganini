@@ -14,4 +14,5 @@ jobs:
     steps:
       - uses: marcopaganini/metrics@latest
         with:
+          config_timezone: America/Los_Angeles
           token: ${{ secrets.METRICS_TOKEN }}
